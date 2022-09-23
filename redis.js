@@ -5,7 +5,7 @@ function redis_conn(){
     const client = createClient({
             host: config.redis.host,
             port: config.redis.port,
-            //password: config.redis.password,
+            //password: config.redis.password
     });
     
     client.connect();
@@ -15,7 +15,7 @@ function redis_conn(){
     });
     
     client.on('connect', function() {
-        console.log('Redis Database connected'+'\n');
+        console.log('Redis Database connected'+ '\n');
     });
     
     client.on('reconnecting', function() {
