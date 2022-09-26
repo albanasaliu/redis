@@ -4,7 +4,7 @@ Helps establish database connections
 
 ## Prerequisites
 
-:warning: **Warning:** This package requires you to have the .env file available on your machine in order to run as well as have **redis** installed
+:warning: **Warning:** This package requires you to have the .env file available on your machine in order to run as well as have **redis** installed and running
 
 ## Installation
 
